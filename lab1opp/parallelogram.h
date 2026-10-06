@@ -20,8 +20,12 @@ public:
 	// бинарный
 	Parallelogram operator+(const Parallelogram& other) const;
 	
-	// доп методы3
-
+	// доп методы3 
+	double sideAB() const;              
+	double sideBC() const;              
+	double perimeter() const;           
+	double area() const;                
+	void   print() const;               
 
 
 	// геттеры
